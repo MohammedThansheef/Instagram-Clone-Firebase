@@ -1,0 +1,32 @@
+.app {
+  background-color: #fafafa;
+}
+.app__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.app__header img {
+  width: 100px;
+  object-fit: contain;
+}
+.app___uploadPost {
+  display: flex;
+  justify-content: center;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  margin-left: 50px;
+}
